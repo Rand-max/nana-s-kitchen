@@ -1,0 +1,265 @@
+.container-fluid{
+    padding: 0;
+}
+/* 導覽列 */
+.firstpagez{
+    height: 100vh;
+}
+.wholehead{
+    background-color: #DEC593;
+    height: 25%;
+}
+.nanalogo{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}.nb{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5em;
+}
+.nav-item{
+    width: 150px;
+    display: flex;
+    justify-content: center;
+}
+.nav-link{
+    font-weight: bold;
+    font-size: 20px;
+}
+.navbar-nav>li.nav-item>a.nav-link{
+    text-decoration:none;
+    color: black;
+  }
+.navbar-nav>li.nav-item.active>a.nav-link{
+    text-decoration:none;
+    color: white;
+  }
+
+/* 主視覺 */
+.carousel-indicators li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 1rem;
+    height:1rem;
+    line-height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    text-indent: unset;
+    cursor: pointer;
+    background-color: #494949;
+    background-clip: unset;
+    border-top: 0;
+    border-bottom: 0;
+    opacity: .5;
+    transition: opacity .6s ease;
+  }
+header{
+    height: 80%;
+    position: relative;
+}
+
+/* 本月精選 */
+section{
+    background-image: url(../images/bgc.png);
+    height: 100vh;
+    background-size: cover; 
+    margin-top: 0;
+}
+.thismonth{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+   
+}
+.hongetsu{
+    color: #DEC593;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    z-index: 1;
+}
+.choosen{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.menu{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.saladimg{
+    height: 180px;
+}
+.saladtitle{
+    margin-top: 10px;
+}
+.saladtitle p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #DEC593;
+}
+.saladcontent{
+    margin-top: 10px;
+    width: 220px;
+}
+.saladcontent p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 150%;
+    letter-spacing: 0.1em;
+    color: #DEC593;
+}
+.pressbtn{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    background-color:#DEC593;
+    width: 120px;
+    border-radius: 2rem;
+    font-size: 16px;
+    color: black;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.09em;
+}
+.btn:hover{
+    background-color: #CAB386;
+}
+.btn:active{
+    color: white;
+}
+.carousel .carousel-control-prev-icon{
+    background-image: url(../images/left_arrow.png);
+    z-index: 5;
+    height: 2em;
+    width: 2em;
+}
+.carousel .carousel-control-next-icon{
+    background-image: url(../images/right_arrow.png);
+    z-index: 5;
+    height: 2em;
+    width: 2em;
+}
+
+/* 尾列 */
+footer{
+    height: 320px;
+    background-color: #DEC593;
+}
+.media{
+    margin-top: 40px;
+    /* margin-left: 150px; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.socialmedia{
+    margin-top: 50px;
+}
+.thelogo{
+    height: 50px;
+    display: flex;
+}
+.follow{
+    position: static;
+    width: 89px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+}
+.fb{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.face{
+    height: 30px;
+    width: 30px;
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.face:hover{
+    opacity: .5;
+}
+.ig{
+   margin-left: 10px;
+   margin-right: 10px;
+}
+.inster{
+    height: 40px;
+    width: 40px;
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.inster:hover{
+    opacity: .5;
+}
+.line{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.gline{
+    height: 30px;
+    width: 30px;
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.gline:hover{
+    opacity: 0.5;
+}
+.socialmedia{
+    display: flex;
+    flex-direction: row;
+}
+
+.aboutus{
+    margin-top: 40px;
+}
+.graytitle{
+    color: #707070;
+}
+.bcontent{
+    padding-top: 20px;
+}
+.oretachi{
+    
+}
+.other{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
